@@ -53,7 +53,6 @@ def position_taken?(board, index)
 end
 
 def turn(board)
-  puts "Welcome to Tic Tac Toe!"
   display_board(board)
   puts "Where would you like to go?"
   puts "Please enter 1-9:"
